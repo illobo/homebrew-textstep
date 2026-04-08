@@ -6,12 +6,12 @@ class Textstep < Formula
 
   on_macos do
     url "https://github.com/illobo/textStep/releases/download/v#{version}/textstep-universal-apple-darwin.tar.gz"
-    sha256 "e47edd013b5f89899dd7e3c3f5cd965d43298142587b22476bc53ffe35f6917b"
+    sha256 "9ba1b00e0bdd7dd9bcfa9f5068ab5ea685e3b504dbf64cf0d6058bbf4a67a60c"
   end
 
   on_linux do
     url "https://github.com/illobo/textStep/releases/download/v#{version}/textstep-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "3f6baf32ba5b223e1e8bcdeb023840915729ab2dea03a6a0167c685d89125e2b"
+    sha256 "6a2a6d3533fedf8a2fa879ea21fa323462ca0908a580c74bfdebd3c4cce39507"
   end
 
   def install
