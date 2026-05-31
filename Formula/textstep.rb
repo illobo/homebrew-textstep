@@ -1,17 +1,17 @@
 class Textstep < Formula
   desc "TUI step sequencer, drum machine, and synthesizer"
   homepage "https://github.com/illobo/textStep"
-  version "3.0.0"
+  version "3.3.3"
   license "MIT"
 
   on_macos do
     url "https://github.com/illobo/textStep/releases/download/v#{version}/textstep-universal-apple-darwin.tar.gz"
-    sha256 "45f55abddcd37cbee8a99b95f89bd47f3895e71680df601ff49f9e40a1afaa83"
+    sha256 "4304cf11bf1adf3a5767cc05f2b78f8ee720d4fa49681641ff1fffeec95ed2b4"
   end
 
   on_linux do
     url "https://github.com/illobo/textStep/releases/download/v#{version}/textstep-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "2dcfb0093d33729b6981501a8aa3065e4b244e222f893e340ec2bc1f3c14ddff"
+    sha256 "9e4baf1009ea72fec8ac198170c4a785ab484c6559fe0cfb0a226e1b6822b34d"
   end
 
   def install
